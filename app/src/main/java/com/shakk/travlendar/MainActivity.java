@@ -1,5 +1,6 @@
 package com.shakk.travlendar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -83,7 +84,8 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_calendar) {
             // Handle the camera action
         } else if (id == R.id.nav_map) {
-
+            Intent intent = new Intent(this, MapsActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_account) {
 
         } else if (id == R.id.nav_preferences) {
