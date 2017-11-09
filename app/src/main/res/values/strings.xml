@@ -11,4 +11,9 @@
     <string name="preferences">Preferences</string>
     <string name="my_tickets">My Tickets</string>
     <string name="title_activity_maps">Map</string>
+    <string name="melziPietro">Melzi Pietro</string>
+    <string name="pinaAlessandro">Pina Alessandro</string>
+    <string name="salvadoreMatteo">Salvadore Matteo</string>
+    <string name="travlendar">Travlendar+</string>
+    <string name="iconAppDescription">Icon of the application.</string>
 </resources>
