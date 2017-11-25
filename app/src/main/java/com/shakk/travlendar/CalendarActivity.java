@@ -79,7 +79,8 @@ public class CalendarActivity extends AppCompatActivity
         } else if (id == R.id.nav_preferences) {
 
         } else if (id == R.id.nav_tickets) {
-
+            Intent intent = new Intent(this, MyTicketsActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -1,4 +1,6 @@
 package com.shakk.travlendar;
 
-public class MyAccountActivity {
+import android.support.v7.app.AppCompatActivity;
+
+public class MyAccountActivity extends AppCompatActivity {
 }

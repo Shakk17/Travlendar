@@ -1,4 +1,6 @@
 package com.shakk.travlendar;
 
-public class PreferencesActivity {
+import android.support.v7.app.AppCompatActivity;
+
+public class PreferencesActivity extends AppCompatActivity {
 }
